@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.coordonnees{
+    width: 35%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.coordonnees_box{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+}
+
+.coordonnees_box *{
+    display: block;
+}
+
+.email{
+    width: 100%;
+    margin: 12px;
+
+}
+
+.input_email{
+    width: 94%;
+}
+
+.input{
+    height: 30px;
+}
+
+h4{
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+button{
+    height: 30px;
+    width: 35%;
+    margin-top: 12px;
+    background-color: blue;
+    border-radius: .2rem;
+}
+
+.demande_container{
+    margin-top: 16px;
+    width: 35%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.demande, .message{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+.nav{
+    display: flex;
+    margin: 1rem;
+}
+
+.nav *{
+    margin: 0.5rem;
+}
+
+.service_container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.text_accueil{
+    height: 100vh;
+    color: white;
+    background-image: url('/images.jpeg');
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.box_container{
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service_box{
+    width: 30%;
+    padding: .5rem;
+    margin-bottom: 16px;
+}
+
+.service_box p{
+    color: lightgray;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    text-indent: 10px;
+}
+

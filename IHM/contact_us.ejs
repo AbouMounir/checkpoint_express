@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title> Contact us </title>
+</head>
+<body>
+    <%- include("./composants/header") %>
+    <div class="contact_box">
+        <div class="coordonnees">
+            <h4> COORDONNEES</h4>
+            <div class="coordonnees_box">
+                <div>
+                    <label for="NOM">NOM</label>
+                    <input class="input" type="text" placeholder="entrez votre nom">
+                </div>
+                <div>
+                    <label for="NOM">PRENOM</label>
+                    <input class="input" type="text" placeholder="entrez votre prénom">
+                </div>
+            </div>
+            <div class="coordonnees_box">
+                <div>
+                    <label for="NOM">SOCIETE/ ORGANISME</label>
+                    <input class="input" type="text" placeholder="">
+                </div>
+                <div>
+                    <label for="NOM">FONCTION</label>
+                    <input class="input" type="text" placeholder="">
+                </div>
+            </div>
+            <div class="coordonnees_box">
+                <div>
+                    <label for="NOM">INDICATIF</label>
+                    <input class="input" type="text" placeholder="entrez votre nom">
+                </div>
+                <div>
+                    <label for="NOM">TELEPHONE</label>
+                    <input class="input" type="number" name="" id="">
+                </div>
+            </div>
+            <div class="email">
+                <label for="NOM">EMAIL</label>
+                <input class="input input_email" type="email" placeholder="entrez votre email">
+            </div>
+        </div>
+        <div class="demande_container">
+            <h4> DEMANDE </h4>
+            <div class="demande">
+                <label for="DEMANDE">DEMANDE</label>
+                <select name="" id="">
+                    <option value=""> Audit, Conseil, Assistance à maitrise d'ouvrage</option>
+                    <option value=""> Assistance technique</option>
+                    <option value=""> Développement / intégration d'application</option>
+                    <option value=""> Formation SIG</option>
+                </select>
+            </div>
+            <div class="message">
+                <label for="MESSAGE">MESSAGE</label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <button type="submit"> Envoyer </button>
+    </div>
+</body>
+</html>
